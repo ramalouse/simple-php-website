@@ -19,7 +19,7 @@ function config($key = '')
         ],
         'template_path' => 'template',
         'content_path' => 'Content',
-        'version' => 'v1',
+        'version' => 'v1.1',
     ];
 
     return isset($config[$key]) ? $config[$key] : null;
