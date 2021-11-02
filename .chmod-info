@@ -1,0 +1,10 @@
+Summarized answer to your question, the bare minimum is:
+
+File permissions: 640
+Directory permissions: 750
+But always good, quite standard and secure enough:
+
+File permissions: 644 index.php
+Directory permissions: 755
+
+https://stackoverflow.com/questions/18473104/chmod-for-php-web-application
