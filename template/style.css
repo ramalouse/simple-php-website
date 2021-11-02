@@ -1,0 +1,63 @@
+/*
+CSS Source: Banago
+*/
+.wrap { 
+    padding: 25px; 
+    text-align: center; 
+    box-shadow: 0 4px 25px -4px #9da5ab; 
+}
+article { 
+    padding: 25px 0; 
+    line-height: 150%; 
+    text-align: left; 
+}
+
+nav .item {
+    text-decoration: none;
+}
+nav .active {
+    border-bottom: 1px solid;   
+}
+
+@media only screen and (min-width: 768px) {
+    article { 
+        padding: 40px; 
+    }
+    .wrap { 
+        max-width: 750px; 
+        margin: 50px auto;
+        padding: 30px 40px;
+    }
+}
+    
+/*
+CSS Source: Me
+*/
+#navigation li {
+    display: inline;
+    padding: 0.5em;
+    background-color: #ddd;
+    border: 3px outset gray;
+    margin: 1em 1em 2em 1em;
+  }
+  
+  h1, #navigation, #flash {
+    text-align: center;
+  }
+  
+  #flash {
+    background-color: #ffffcc;
+    border: 1px dotted #ccccaa;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  
+  #container{
+    max-width: 80%;
+    background: rgb(218, 240, 240);
+}
+#floated{
+    float: left;
+    width:175px;
+    /* background: red; */
+}
